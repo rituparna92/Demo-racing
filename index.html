@@ -15,19 +15,25 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 
-<script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
   // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDWruNu2MpLPCU6tzxcRm79hKqT5IVBzB8",
-    authDomain: "multiplayer-racing-e2773.firebaseapp.com",
-    databaseURL: "https://multiplayer-racing-e2773-default-rtdb.firebaseio.com",
-    projectId: "multiplayer-racing-e2773",
-    storageBucket: "multiplayer-racing-e2773.appspot.com",
-    messagingSenderId: "695142558940",
-    appId: "1:695142558940:web:68ef57282cb65bed8c1819"
+  const firebaseConfig = {
+    apiKey: "AIzaSyCGEpKz7OZYDScJaxzaWBqkr6LrwbfxTKQ",
+    authDomain: "multiplayer-car-racing-g-1da00.firebaseapp.com",
+    databaseURL: "https://multiplayer-car-racing-g-1da00-default-rtdb.firebaseio.com",
+    projectId: "multiplayer-car-racing-g-1da00",
+    storageBucket: "multiplayer-car-racing-g-1da00.appspot.com",
+    messagingSenderId: "522172515111",
+    appId: "1:522172515111:web:7dc66191fdc0844c74df02"
   };
+
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  const app = initializeApp(firebaseConfig);
 </script>
 
 <!--database code ends here-->    
